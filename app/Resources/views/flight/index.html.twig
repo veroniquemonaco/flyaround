@@ -10,6 +10,7 @@
                 <th>Departure</th>
                 <th>Arrival</th>
                 <th>Pilot</th>
+                <th>Plane</th>
                 <th>Freeseats</th>
                 <th>Takeoftime</th>
                 <th>Actions</th>
@@ -22,6 +23,7 @@
                 <td>{{ flight.departure }}</td>
                 <td>{{ flight.arrival }}</td>
                 <td>{{ flight.pilot }}</td>
+                <td>{{ flight.plane }}</td>
                 <td>{{ flight.freeSeats }}</td>
                 <td>{% if flight.takeofTime %}{{ flight.takeofTime|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>
